@@ -24,44 +24,40 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hello! I'm Nazmul Hossain, a passionate JavaScript developer
-                specializing in creating innovative web solutions and
-                user-friendly interfaces.{" "}
-                <span className="font-bold text-white">
-                  As the creator of the OlovaJS UI Framework
-                </span>
-                , I'm dedicated to simplifying development workflows.
+                Hello! I'm <span className="font-semibold">Praveen Jayathilake</span>, a
+                Computer Science undergraduate with a strong interest in software
+                engineering and modern web development. I enjoy building user-friendly,
+                practical applications and continuously improving my skills through
+                hands-on projects and learning.
               </p>
+
               <p className="text-white">
-                My focus is on making web development faster, easier, and
-                accessible to all developers. Currently, I'm expanding into
-                backend development to grow as a full-stack developer and create
-                seamless, robust web applications.
+                My primary focus is on{" "}
+                <span className="font-bold text-white">web development using the MERN stack</span>
+                , where I work on projects that solve real-world problems, track
+                performance, and improve user experience. Alongside academics, I actively
+                explore new technologies and best practices to grow as a well-rounded
+                developer.
               </p>
 
               <div className="pt-6">
                 <blockquote className="border-l-4 border-gray-300 pl-4">
                   <p className="text-white">
-                    I'm a lifelong learner and innovator, driven by a desire to
-                    contribute to the developer community with new ideas and
-                    tools that deliver real value. As the creator of OlovaJS,
-                    I'm pushing the boundaries of JavaScript frameworks to
-                    empower developers worldwide.
+                    I'm also a{" "}
+                    <span className="font-semibold">national-level athlete</span>, which has
+                    shaped my discipline, consistency, and goal-oriented mindset—qualities
+                    I bring into my development journey. As a lifelong learner, I’m driven
+                    to improve every day and aim to build reliable, impactful software
+                    solutions in the future.
                   </p>
 
                   <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
-                      Nazmul Hossain, Creator of
+                      Praveen Salamuthu Jayathilake
                     </cite>
                     <div className="flex items-center gap-2">
-                      <img
-                        className="h-5 w-fit"
-                        src={OlovaLogo}
-                        alt="Olova Logo"
-                        height="20"
-                        width="auto"
-                      />
-                      <span className="text-white">OlovaJS</span>
+
+                      <span className="text-white">Computer Science Undergraduate & Aspiring Software Engineer</span>
                     </div>
                   </div>
                 </blockquote>

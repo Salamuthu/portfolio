@@ -15,25 +15,45 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      degree: "G.C.E Advanced Level (A/L)",
+      school: "Department of Education",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      year: "2024",
+      achievements: ["Result : BBC", "Z-Score : +1.049"],
+      skills: ["Mathematics", "Physics", "Chemistry", "English"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Completed Advanced Level studies in the Physical Science stream, with a strong focus on Combined Mathematics, Physics, and Chemistry, building a solid analytical and problem-solving foundation.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      degree: "G.C.E. Ordinary Level (O/L)",
+      school: "Department of Education",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2022",
+      achievements: ["9 A's",],
+      skills: ["Mathematics", "Science", "Commerce", "History", "English", "Sinhala", "Buddhism", "Sinhala lit.", "Health",],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Completed the G.C.E. Ordinary Level examination with Distinction passes in all nine subjects, demonstrating strong academic consistency and foundational knowledge across core subjects.",
     },
+    {
+      degree: "Diploma in IT (International)",
+      school: "ESOFT Metro Campus",
+      mascot: "🎓",
+      year: "2019",
+      achievements: ["PASS",],
+      skills: ["IT Fundamentals", "Networking Technology", "Graphic & Multimedia", "Database"],
+      description:
+          "Building a strong foundation in IT fundamentals, programming, databases, networking, and software engineering through theoretical learning and practical application.",
+    },
+    {
+      degree: "Diploma in Computer Hardware with Network",
+      school: "National Youth Service Council",
+      mascot: "🛠️",
+      year: "2025",
+      achievements: ["Result: 98.5% (Distinction)",],
+      skills: ["Electronics", "Troubleshooting", "Chip level Repairing", "Network Cabling", "Azure Fundamentals", "Cisco Network Essentials"],
+      description:
+          "Gaining hands-on experience in computer hardware installation, troubleshooting, operating systems, networking fundamentals, and system maintenance.",
+    }
   ];
 
   const containerVariants = {

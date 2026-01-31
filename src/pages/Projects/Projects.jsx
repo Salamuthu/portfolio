@@ -5,44 +5,47 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "A-Performance",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+      "A-Performance is an intelligent desktop application that combines\n" +
+        "Machine Learning (ML) and Large Language Models (LLaMA) to analyze athlete training data, predict injury risk, and generate human-like AI coaching feedback.",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    link: "https://i.postimg.cc/KjC7BXF6/after.png",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/Salamuthu/A-performance.git",
+    liveLink: "",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "Crypto Betting App (TRX) ",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
+      "A full-stack cryptocurrency betting platform built using the MERN stack, featuring secure authentication, TRX balance management, and a real-time coin-flip betting game.",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "https://i.postimg.cc/JzFyh3rY/Screenshot-2026-01-28-194512.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/Salamuthu/crypto-betting-app-trx.git",
+    liveLink: "",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "MoneyManage – Personal Finance Tracker",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "MoneyManage is a desktop application built using Python + Tkinter that helps users track income, expenses, and financial summaries. It supports multiple users and displays personalized dashboards with recent transactions.\n" +
+        "\n",
     src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+    link: "https://i.postimg.cc/s2zk7qgB/login-ss.png",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    githubLink: "https://github.com/Salamuthu/MoneyManage.git",
+    liveLink: "",
   },
   {
-    title: "CodeKori 🔥",
+    title: "Forex Grid Master",
     description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      "Forex Grid Master is an automated grid-based forex trading bot developed using Python and the MetaTrader 5 (MT5) library.\n" +
+        "This project focuses on algorithmic trading concepts such as grid strategies, automated order execution, and trade management.",
     src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    link: "https://i.postimg.cc/Y0QVvxBb/bot-startup.png",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/Salamuthu/Forex-Grid-Master.git",
+    liveLink: "",
   },
 ];
 

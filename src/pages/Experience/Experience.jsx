@@ -1,5 +1,5 @@
 import React from "react";
-import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
+import { Code2, Activity, Cpu, Layers, Network, Binary, Trophy } from "lucide-react";
 
 const ExperienceCard = ({
   title,
@@ -55,27 +55,27 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      title: "Computer Science Undergraduate",
+      company: "Description:",
+      period: "2024 – Present",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Learning core computer science concepts while building practical projects in web development. Actively exploring software engineering principles, problem-solving, and modern development tools.",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: "Project-Based Software Development",
+      company: "Description:",
+      period: "2024 – Present",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Actively working on academic and personal projects across multiple areas, including web development, basic backend systems, and introductory Machine Learning and Deep Learning concepts. Focused on applying theoretical knowledge to practical use cases while continuously improving problem-solving and development skills.",
     },
     {
-      icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      icon: Trophy,
+      title: "National-Level Athlete",
+      company: "Sri Lanka Athletics",
+      period: "2018 - Present",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "Represented Sri Lanka at national and international competitions, achieving a Silver Medal at the Asian Youth Athletics Championship, while developing discipline, resilience, and time-management skills that strongly influence my approach to software development.",
     },
   ];
 
@@ -109,12 +109,12 @@ const ExperienceSection = () => {
           <div className="flex flex-col items-center space-y-8 mb-20">
             <div className="relative">
               <h2 className="text-5xl md:text-7xl font-black text-transparent bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-center">
-                Professional Journey
+                My Learning & Development Journey
               </h2>
               <div className="absolute inset-0 -z-10 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 blur-3xl rounded-full" />
             </div>
             <p className="text-lg md:text-xl text-gray-400 font-medium tracking-wide text-center max-w-2xl">
-              "Transforming ideas into digital reality, one project at a time"
+              "Learning, building, and growing through projects and practice"
             </p>
           </div>
 
