@@ -24,20 +24,16 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hello! I'm <span className="font-semibold">Praveen Jayathilake</span>, a
-                Computer Science undergraduate with a strong interest in software
-                engineering and modern web development. I enjoy building user-friendly,
-                practical applications and continuously improving my skills through
-                hands-on projects and learning.
+                Hello! I'm <span className="font-semibold">Praveen Jayathilake</span>, a Computer Science undergraduate with a strong interest in software engineering
+                and modern application development. I enjoy building user-friendly, practical solutions and continuously
+                improving my skills through hands-on projects and continuous learning.
               </p>
 
               <p className="text-white">
                 My primary focus is on{" "}
-                <span className="font-bold text-white">web development using the MERN stack</span>
-                , where I work on projects that solve real-world problems, track
-                performance, and improve user experience. Alongside academics, I actively
-                explore new technologies and best practices to grow as a well-rounded
-                developer.
+                <span className="font-bold text-white">core software development principles</span>
+                , including backend development, frontend development, and problem-solving through code. Alongside my academic studies,
+                I actively explore new technologies, tools, and best practices to grow as a well-rounded and adaptable developer.
               </p>
 
               <div className="pt-6">
