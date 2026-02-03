@@ -1,5 +1,6 @@
 import HeroImg from "@/assets/images/hero.jpg";
 import OlovaLogo from "@/assets/images/olova.png";
+import SocialCards from "@/components/SocialCards.jsx";
 
 export default function About() {
   return (
@@ -60,6 +61,9 @@ export default function About() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="container mx-auto px-6 mt-24">
+          <SocialCards />
         </div>
       </section>
     </>
