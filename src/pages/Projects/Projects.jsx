@@ -2,6 +2,7 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
+import { FaGoogleDrive } from "react-icons/fa";
 
 const projects = [
   {
@@ -255,39 +256,24 @@ function Card({
                 </motion.a>
 
                 {/* Google Drive Link */}
-                <motion.a
-                    href={driveLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group flex items-center gap-2"
-                    whileHover={{ y: -3 }}
-                    transition={{ type: "spring", stiffness: 400 }}
-                >
-                  <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="22"
-                      height="22"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke={color}
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                  >
-                    <path d="M7 3h10l4 7-5 9H8L3 10z" />
-                    <path d="M7 3l5 7" />
-                    <path d="M17 3l-5 7" />
-                    <path d="M3 10h10" />
-                    <path d="M13 10h8" />
-                  </svg>
-
-                  <span
-                      className="text-xs md:text-sm font-medium"
-                      style={{ color }}
-                  >
-                    Document
-                  </span>
-                </motion.a>
+                {driveLink && (
+                    <motion.a
+                        href={driveLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex items-center gap-2"
+                        whileHover={{ y: -3 }}
+                        transition={{ type: "spring", stiffness: 400 }}
+                    >
+                      <FaGoogleDrive size={22} color={color} />
+                      <span
+                          className="text-xs md:text-sm font-medium"
+                          style={{ color }}
+                      >
+                        Document
+                      </span>
+                    </motion.a>
+                )}
 
                 {/* Live Link */}
                 <motion.a
@@ -340,6 +326,6 @@ Card.propTypes = {
   range: PropTypes.array.isRequired,
   targetScale: PropTypes.number.isRequired,
   githubLink: PropTypes.string.isRequired,
-  driveLink: PropTypes.string.isRequired,
+  driveLink: PropTypes.string,
   liveLink: PropTypes.string.isRequired,
 };
