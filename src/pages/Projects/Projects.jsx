@@ -58,6 +58,16 @@ const projects = [
     driveLink: "https://drive.google.com/file/d/1hhchIn_dw51lweHNjdJz0KeB2PYALw0X/view?usp=sharing",
     liveLink: "",
   },
+  {
+    title: "Programmable 2-Digit BCD Up-Counter with Automatic Target Detection | Proteus Simulation",
+    description:
+        "Programmable 2-Digit BCD Up-Counter with Automatic Target Detection is a digital logic system designed in Proteus using 74LS series ICs. It counts from 00 to 99 in BCD format and automatically detects a user-programmed target value using digital comparators. When the target count is reached, the system triggers an LED indication, demonstrating practical concepts of counters, comparators, flip-flops, and sequential logic design.",
+    src: "house.jpg",
+    link: "https://i.postimg.cc/x1yNgczb/Screenshot-2026-07-05-112420.png",
+    color: "#830120",
+    driveLink: "https://drive.google.com/file/d/1Zj6bX-UlxqoanQFmrURJjyDwOtUWR8Wc/view?usp=sharing",
+    liveLink: "",
+  },
 ];
 
 export default function Projects() {
