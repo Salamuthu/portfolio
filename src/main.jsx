@@ -5,9 +5,10 @@ import { BrowserRouter } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <StrictMode>
-      <App />
-    </StrictMode>
-  </BrowserRouter>
+    <BrowserRouter>
+        <StrictMode>
+            <App />
+            <Analytics />
+        </StrictMode>
+    </BrowserRouter>
 );

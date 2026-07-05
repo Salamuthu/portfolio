@@ -47,6 +47,16 @@ const projects = [
     githubLink: "https://github.com/Salamuthu/Forex-Grid-Master.git",
     liveLink: "",
   },
+  {
+    title: "4-Bit Memory-Centric Processor Datapath Design | ALU & Memory Architecture",
+    description:
+        "The 4-Bit Memory-Centric Processor Datapath Design is a digital system that combines a 4-bit ALU, memory, and registers to perform basic data processing operations. It supports arithmetic, logical, and memory access functions while demonstrating the core concepts of processor datapath architecture. This project provides a practical understanding of digital system and computer architecture design.",
+    src: "house.jpg",
+    link: "https://i.postimg.cc/Y0SX350t/Screenshot-2026-07-05-101255.png",
+    color: "#43e0e6",
+    githubLink: "https://github.com/Salamuthu/Forex-Grid-Master.git",
+    liveLink: "",
+  },
 ];
 
 export default function Projects() {
