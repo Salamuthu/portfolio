@@ -211,7 +211,7 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  CS Undergraduate 💻 | MERN Stack Learner ⚛️ | Future Software Engineer 🚀
+                  Computer Science Undergraduate 💻 | Sport Science Undergraduate 🏃🏻‍♂️ | MERN Stack Learner ⚛️ | Future Software Engineer 🚀
                   Turning ideas into code ✨
                 </p>
               </div>
